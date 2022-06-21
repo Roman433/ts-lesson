@@ -1,0 +1,17 @@
+{
+  "name": "ts-lesson",
+  "version": "1.0.0",
+  "license": "MIT",
+  "source": "src/main.ts",
+  "main": "dist/main.js",
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build",
+    "check": "tsc --noEmit",
+    "start": "parcel build && node dist/main.js"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.1",
+    "typescript": "^4.7.4"
+  }
+}
